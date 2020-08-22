@@ -9,6 +9,9 @@
     clear: both;
     height: 0;
 }
+.gyqy{
+    padding-top: 100px;
+}
 .gyqy_bgpir{
   background: url('../img/gy-aboutbanner.jpg') no-repeat center;
   background-size: cover;
@@ -92,23 +95,30 @@
 .gyqy_main{
     width: 100%;
     height: 1396px;
-    background: url('../img/gyqy_about1bg1.jpg') no-repeat center;
+    background: url('../img/gyqy_about1bg1.jpg') no-repeat center center;
     background-size: cover;
 }
 .gyqy_subpage{
     width: 1200px;
     margin: 0 auto;
 }
-.gyqy_title>img{
-  margin-top: 145px;
+.gyqy_title{
+    padding-top: 145px;
 }
-.gyqy_description p{
-    width: 900px;
+
+.gyqy_description{
+    width: 1200px;
+    margin: 0 auto;
+}
+.gyqy_description p{   
+    width: 75%;
     color: #191919;
     font-size: 28px;
     margin-top: 80px;
     line-height: 54px;
     float: right;
+    text-indent: 60px;
+   
 }
 .gyqy_list{
     background: url('../img/gyqy_about2.jpg') no-repeat center;
@@ -117,4 +127,52 @@
     height: 418px;
     margin: 90px auto 0;
 
+}
+/* 地图 */
+.gyqy_sitemap{
+    width: 1200px;
+    margin: 0 auto;
+    height: 800px;
+    border: 1px solid blue;
+    position: relative;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+/*  */
+.gyqy_map_botoom img{
+    /* width: 400px;
+    height: 400px; */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.gyqy_year{
+    width: 100%;
+    height: 722px;
+    background: url('../img/gyqy_about4.jpg') no-repeat center;
+    background-size: cover;
+    margin-top: 80px;
+
+}
+/* 企业荣誉 */
+.gyqy_honor{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.gyqy_honor_pir img{
+    width: 659px;
+    height: 212px;
+    margin: 130px auto 90px;
+
+}
+/* 拖动的轮播 */
+.gyqy_banner{
+    height: 500px;
+    width: 1200px;
+    border: 1px solid blue;
 }
