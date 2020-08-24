@@ -4,6 +4,7 @@ var app = express();
 
 app.engine('html', ejs.__express);
 app.set('view engine', 'html');
+
 //使用中间件
 app.use(express.static('static'))
 
