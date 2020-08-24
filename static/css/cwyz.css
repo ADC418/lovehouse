@@ -1,0 +1,93 @@
+.clearfix::after{
+    content: "";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+.swiper-container {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width: 1926px;
+    position: relative;
+    float: left;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+.swiper-button-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.swiper-button-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.swiper-wrapper .swiper-pagination{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 30px;
+}
+.swiper-pagination-bullet{
+    background: #FFFFFF;
+    opacity: .8;
+}
+/* dangqian */
+.swiper-pagination-bullet-active{
+    background: #f3620f;
+    width: 45px;
+    border-radius: 4px;
+}
+/*  */
+/* 六大安心保证 */
+.cwyz_title{
+    width: 892px;
+    text-align: center;
+    height: 105px;
+    /* line-height: 105px; */
+    margin: 90px auto 20px;
+}
+.cwyz_title_left{
+    width: 210px;
+    height: 3px;
+    display: block;
+    background: #999999;
+    float: left;
+    margin-top: 72px;
+}
+.cwyz_title_middle{
+    width: 312px;
+    float: left;
+    text-align: center;
+    margin: 0 80px;
+}
+.cwyz_title_middle span{
+    font-size: 88px;
+    color: #f3620f;
+}
+.cwyz_title_middle h5{
+    font-size: 46px;
+    font-weight: 550;
+    color: #041619;
+    line-height: 46px;
+    display: inline-block;
+}
+.cwyz_title_middle p{
+    font-size: 20px;
+    line-height: 56px;
+    color: #041619;
+}

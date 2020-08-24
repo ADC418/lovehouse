@@ -20,17 +20,23 @@ $(function () {
 
 
     // 使用swiper制作拖动轮播图
-    var mySwiper = new Swiper('.swiper-container', {
+    // var mySwiper = new Swiper('.swiper-container', {
+    //     slidesPerView: 3,//设置slider容器能够同时显示的slides数量
+    //     // spaceBetween: 30,
+    //     centeredSlides: true,//设定为true时，active slide会居中，而不是默认状态下的居左。
+    //     loop: true,
+    // })
+
+    var swiper = new Swiper('.swiper-container', {
+        loop:true,
         slidesPerView: 3,
         spaceBetween: 30,
         centeredSlides: true,
-        loop: true,
+       
         // pagination: {
-        //     el: '.swiper-pagination',
-        //     clickable: true,
+        //   el: '.swiper-pagination',
+        //   clickable: true,
         // },
-
-    })
-
+      });
 
 })
