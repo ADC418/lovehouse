@@ -14,9 +14,10 @@ li{
 }
 .xukx_banner{
     width: 100%;
-    height: 330px;
-    background: url('../img/xukxbanner.jpg')no-repeat center;
+    height: 230px;
+    background: url('/img/xukxbanner.jpg')no-repeat center;
     background-size: cover;
+    padding-top : 100px;
 }
 .xwkx_title{
     width: 100%;
@@ -24,36 +25,62 @@ li{
     line-height: 60px;
     cursor: pointer;
 }
-.wxkx_content{
+.xwkx_content{
     width: 1200px;
     height: 60px;
     margin: 0 auto;
    
 }
-.wxkx_left{
+.xwkx_left{
     height: 60px;
     display: inline-block;
     position: relative;
 }
-.wxkx_left ul li:before{
+
+.xwkx_left ul li{
+    position: relative;
+    transition: all 1s;
+}
+.xwkx_left ul li::before{
     content: "";
     position: absolute;
-    width: 10px;
+    width: 0px;
     top: 50%;
-    margin-left: -20px;
+    left: 16px;
     height: 1px;
     background: #fff;
+    z-index: 3;
+    transition: all .5s;
 }
-.wxkx_left ul li:after{
+.xwkx_left ul li::after{
     content: "";
     position: absolute;
-    width: 10px;
+    width: 0px;
     top: 50%;
-    margin-left: 12px;
+    right: 16px;
     height: 1px;
     background: #fff;
+    transition: all .5s;
 }
-.wxkx_left li{
+
+.xwkx_left li:hover{
+    color:#fff;
+    width:64px;
+    background-color: #ff5722;
+}
+
+.xwkx_left li:hover::after,.xwkx_left li:hover::before{
+    width: 10px;
+}
+
+.xwkx_left .xukx_avtive{
+    background-color: #ff5722;
+    color: #fff ;
+}
+.xwkx_left .xukx_avtive::after,.xwkx_left .xwkx_avtive::before{
+    width: 10px;
+}
+.xwkx_left li{
     float: left;
     height: 60px;
     color: #777777;
@@ -67,15 +94,14 @@ li{
     position: relative;
     float: right;
 }
-.wxkx_left li:hover{
-    background-color: #ff5722;
-    transition: all  1s linear;
-    color:#fff;
-}
+
 .xwkx_right li{
     float: left;
     font-size: 12px;
     color: #b0b0b0;
+}
+.xwkx_right li:nth-child(4){
+    color: #ff5722;
 }
 .xwkx_right :hover{
     color:#ff5722 ;
@@ -91,16 +117,13 @@ li{
     position: absolute;
     top: 22px;
     left: -22px;
-    background: url('../img/xukx_position.png') no-repeat;
+    background: url('/img/xukx_position.png') no-repeat;
     font-size: 12px;
     height: 60px;
     line-height: 60px;
     padding-left: 24px;
 }
-.wxkx_left .xukx_avtive{
-    background-color: #ff5722;
-    color: #fff ;
-}
+
 
 /* 主题部分 */
 #all_main{
@@ -120,12 +143,17 @@ li{
     float: left;
     padding-right: 64px;
     border-bottom: 1px dashed #898989;
+   
 }
 .xwkx_pic img{
     width: 400px;
     float: left;
     height: 250px;
     margin-top: 52px;
+    transition: all .2s;
+}
+.xwkx_pic img:hover{
+    transform: scale(1.05);
 }
 .xwkx_txt{
     float: left;
@@ -155,10 +183,10 @@ li{
 .xwkx_box{
     cursor: pointer;
     position: relative;
-    /* perspective: 1000; */
-    /* transform: rotateX(50deg) rotateY(69deg); */
+    width: 120px;
     height: 32px;
-    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.36s ease-in-out;
 }
 .xwkx_box span{
     position: absolute;
@@ -166,27 +194,41 @@ li{
     top: 0;
     width: 120px;
     height: 32px;
-    line-height: 32px;
-    text-align: center;
+    display: inline-block;
     z-index: 0;
     left: 0;
-    float: left;
- 
 }
-
-.xwkx_box .xwkx_more{
-    
+ .xwkx_box .xwkx_more{
     transform: translate3d(0, 0, 16px);
-    background-color: red;
-    /* background: url('../img/xukx_more1.jpg') center no-repeat; */
+    background: url('/img/xukx_more1.jpg') center no-repeat;
 }
 .xwkx_box .xukx_hover{
-    /* translate3d(0, 0, -16px) */
-    color: white;
-    background-color: black;
-    transform:  rotateX(-90deg)  ;
-    /* background: url('../img/xukx_more_hover.jpg') center no-repeat; */
+    transform: rotateX(-90deg) translate3d(0, 0, 16px);
+    background: url('/img/xukx_more_hover.jpg') center no-repeat;
 }
-.xwkx_txt:hover .xwkx_box{
-    transform: rotateX();
-}   
+.xwkx_box:hover {
+    transform: rotateX(90deg);
+    cursor: pointer;
+}
+.xukx_time{
+    float: left;
+    height: 354px;
+    border-right: 2px solid #ff5722;
+    line-height: 354px;
+    width: 180px;
+    font-size: 28px;
+    color: #ff5722;
+    position: relative;
+    margin-right: 50px;
+   
+}
+.xukx_time i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #ff5722;
+    position: absolute;
+    top: 167px;
+    right: -9px;
+    border-radius: 20px;
+}
