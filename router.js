@@ -36,7 +36,7 @@ app.get('/jfgz', function (req, res) {
     res.render('jfgz')
 })
 app.get('/more', function (req, res) {
-    res.render('more')
+    res.render('xwkx_more')
 })
 module.exports = {
     app
