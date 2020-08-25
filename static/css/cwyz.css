@@ -5,7 +5,7 @@
     clear: both;
     display: block;
 }
-.swiper-container {
+.swiper-container1 {
     width: 100%;
     height: 600px;
     overflow: hidden;
@@ -13,14 +13,14 @@
 }
 
 
-.swiper-slide {
+.swiper-slide1 {
     text-align: center;
     font-size: 18px;
     width: 1926px;
     position: relative;
     float: left;
 }
-.swiper-slide img {
+.swiper-slide1 img {
     width: 100%;
     height: 100%;
 }
@@ -34,7 +34,7 @@
     top: 50%;
     left: 0;
 }
-.swiper-wrapper .swiper-pagination{
+.swiper-wrapper1 .swiper-pagination{
     width: 8px;
     height: 8px;
     display: inline-block;
@@ -54,6 +54,12 @@
 }
 /*  */
 /* 六大安心保证 */
+.cwyz_six{
+    width: 100%;
+    height: 1120px;
+    background: url('../img/yezhu_sixbg.jpg') no-repeat center;
+    background-size: cover;
+}
 .cwyz_title{
     width: 892px;
     text-align: center;
@@ -90,4 +96,141 @@
     font-size: 20px;
     line-height: 56px;
     color: #041619;
+}
+.cwyz_wrap ul{
+    width: 1450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* text-align: center; */
+   
+}
+.cwyz_list{
+    float: left;
+    text-align: center;
+    margin: 50px 0;
+    width: 483px
+    /* display: flex;
+    justify-content: space-around; */
+}
+.cwyz_list img{
+    display: inline-block;
+}
+.cwyz_list h6{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 60px;
+}
+.cwyz_list p{
+    font-size: 20px;
+    color: #707070;
+    margin: 20px 60px 0;
+    line-height: 36px;
+}
+/* 安心服务 */
+.cwyz_server{
+    width: 1200px;
+    margin: 0 auto;
+}
+.cwyz_title_middle1{
+    float: left;
+    width: 392px;
+    margin: 0 40px;
+}
+.cwyz_title_middle1 span{
+    display: inline-block;
+    font-size: 46px;
+    font-weight: 550;
+    color: #f3620f;
+    line-height: 46px;
+
+}
+.cwyz_title_middle1 h5{
+    display: inline-block;
+    font-size: 46px;
+    font-weight: 550;
+    color: #041619;
+    line-height: 46px; 
+}
+.cwyz_title_middle1 p{
+    font-size: 20px;
+    line-height: 56px;
+    color: #041619;
+}
+.cwyz_profess{
+    padding: 0 10px;
+}
+.cwyz_mind1{
+    width: 566px;
+    height: 297px;
+    background: url('../img/yezhu_guanjia1.jpg') no-repeat center;
+    background-size: cover;
+    margin-right: 25px;
+    margin: 23px 23px 23px 0;
+    position: relative;
+    float: left;
+}
+.cwyz_mind2{
+    width: 566px;
+    height: 297px;
+    background: url('../img/yezhu_guanjia1.jpg') no-repeat center;
+    background-size: cover;
+    margin-right: 25px;
+    margin: 23px 0 23px 23px;
+    position: relative;
+    float: left;
+}
+.cwyz_mind:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+.cwyz_txt{
+    width: 100%;
+    height: 124px;
+    background: rgba(240,135,75,.85);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.cwyz_txt p{
+    font-size: 24px;
+    color: #fff;
+    line-height: 28px;
+    margin: 20px 0 10px 23px;
+}
+.cwyz_txt .cwyz_txt2{
+    font-size: 14px;
+    margin: 0 23px;
+}
+/* 生活 */
+.cwyz_life{
+    width: 100%;
+    height: 870px;
+    background: url('../img/yezhu_lift1.jpg') no-repeat center;
+    background-size: cover;
+    margin-top: 100px;
+}
+.swiper-container_life{
+    width: 1200px;
+    margin: 0 auto;
+}
+.swiper-slide2{
+    padding-top: 406px;
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    /* margin-right: 30px; */
+}
+.swiper-slide2 img{
+    width: 390px;
+    height: 390px;
+    display: inline-block;
+}
+/* 与最美业主一起 */
+.cwyz_beautiful{
+    width: 100%;
+    height: 1040px;
+    background: url('../img/yezhu_zuimei.jpg') no-repeat center;
+    background-size: cover;
 }
