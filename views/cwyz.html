@@ -135,11 +135,98 @@
         </div>
     </div>
     <!-- 与最美业主一起 -->
-    <div class="cwyz_beautiful">
+    <div class="cwyz_beautiful cwyz_beaf">
+        <div class="cwyz_title">
+            <span class="cwyz_title_left"></span>
+            <div class="cwyz_title_middle1">
+                <!-- <span>安心</span> -->
+                <h5>与<span>最美</span>业主一起</h5>
+                <p>WITH THE MOST BEAUTIFUL OWNERS</p>
+            </div>
+            <span class="cwyz_title_left"></span>
+        </div>
+        <div class="cwyz_c_beautiful_content">
+            <div class="swiper-container swiper-container_beautiful">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide3">
+                        <a href="#">
+                            <img src="/img/yezhu_zuimei1.jpg" alt="">
+                        </a>
+                        <p>大疫当前 感恩有你 最美业主</p>
+                    </div>
+                </div>
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev swiper_prev"></div>
+                <div class="swiper-button-next swiper_next"></div>
+            </div>
+            <a href="#">
+                <p class="cwyz_case">其他业主反馈案例</p>
+            </a>
+
+        </div>
+
+
+    </div>
+    <!-- 轻松四步坐享房屋经济 -->
+    <div class="cwyz_easy">
+        <div class="cwyz_title cwyz_easy_title">
+            <span class="cwyz_title_left"></span>
+            <div class="cwyz_title_middle1 cwyz_easy_middle">
+                <!-- <span>安心</span> -->
+                <h5>轻松<span>四</span>步，坐享房租收益</h5>
+                <p>FOUR EASY STEPS TO ENJOY THE BENEFITS OF RENT</p>
+            </div>
+            <span class="cwyz_title_left"></span>
+        </div>
+        <div class="cwyz_easy_four"></div>
+    </div>
+    <!-- 全图 -->
+    <div class="clearfix cwyz_pirce">
+        <ul>
+            <li class="cwyz_pirce_list">
+                <img src="/img/yezhu_shili1.jpg" alt="">
+            </li>
+            <li class="cwyz_pirce_list">
+                <img src="/img/yezhu_shili2.jpg" alt="">
+            </li>
+            <li class="cwyz_pirce_list">
+                <img src="/img/yezhu_shili3.jpg" alt="">
+            </li>
+            <li class="cwyz_pirce_list">
+                <img src="/img/yezhu_shili4.jpg" alt="">
+            </li>
+            <li class="cwyz_pirce_list">
+                <img src="/img/yezhu_shili5.jpg" alt="">
+            </li>
+            <li class="cwyz_pirce_list">
+                <img src="/img/yezhu_shili6.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+    <!-- 大城小屋登陆亚洲第一屏 -->
+    <div class="cwyz_land">
+        <div class="cwyz_title cwyz_land_title">
+            <span class="cwyz_title_left"></span>
+            <div class="cwyz_title_middle1 cwyz_land_middle">
+                <!-- <span>安心</span> -->
+                <h5><span>大城小屋</span>登陆亚洲第一屏</h5>
+                <p>LAND ON ASIA'S BIGGEST SCREEN</p>
+            </div>
+            <span class="cwyz_title_left"></span>
+        </div>
+        <div class="clearfix cwyz_land_center">
+            <div class="cwyz_land_left"></div>
+            <div class="cwyz_land_right">
+                <p class="cwyz_img1"></p>
+                <p class="cwyz_img2"></p>
+            </div>
+
+        </div>
 
     </div>
 
-    </div>
+
+
 
 
     <%- include('footer.html')%>
@@ -160,7 +247,17 @@
             // autoplay: true,
             slidesPerView: 3,//同时显示的数量
             slidesPerGroup: 3, //三个为一组
-            spaceBetween : 30,//图片之间的间距
+            spaceBetween: 30,//图片之间的间距
+        })
+        var mySwiper3 = new Swiper('.swiper-container_beautiful', {
+            // loop: true, // 循环模式选项
+            // autoplay: true,
+            slidesPerView: 1,//同时显示的数量
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
         })
 
 

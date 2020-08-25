@@ -182,7 +182,7 @@
     position: relative;
     float: left;
 }
-.cwyz_mind:hover{
+.cwyz_mind1:hover,.cwyz_mind2:hover{
     box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 .cwyz_txt{
@@ -233,4 +233,134 @@
     height: 1040px;
     background: url('../img/yezhu_zuimei.jpg') no-repeat center;
     background-size: cover;
+}
+.cwyz_beaf .cwyz_title{
+    width: 892px;
+    height: 105px;
+    margin: 0 auto;
+    padding: 90px 0 20px;
+}
+.cwyz_c_beautiful_content{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.swiper-slide3 img{
+    display: inline-block;
+    text-align: center;
+
+}
+.swiper_prev{
+    background: url('../img/yezhu_zuimeiL.png') no-repeat center;
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    opacity: .35;
+    left: 10px;
+    
+}
+.swiper_next{
+    background: url('../img/yezhu_zuimeiR.png') no-repeat center;
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    opacity: .35;
+    right: 10px;
+
+}
+.swiper-slide3{
+    position: relative;
+}
+.swiper-slide3 p{
+    width: 916px;
+    height: 125px;
+    line-height: 125px;
+    font-size: 34px;
+    color: #041619;
+    position: absolute;
+    bottom: 0px;
+    left: 142px;
+    background: rgba(255,255,255,.5);
+}
+.cwyz_c_beautiful_content a{
+    text-decoration: none;
+}
+.cwyz_c_beautiful_content .cwyz_case{
+    width: 370px;
+    height: 68px;
+    font-size: 28px;
+    text-align: center;
+    margin: 50px auto 0;
+    background: #dd5519;
+    color: #FFFFFF;
+    border-radius: 68px;
+    line-height: 68px;
+}
+/* 轻松四步坐享房屋经济 */
+.cwyz_title .cwyz_easy_middle{
+    width: 700px;
+    margin-left: 40px;
+}
+.cwyz_easy .cwyz_easy_title{
+    width: 1200px;
+}
+.cwyz_easy_four{
+    width: 1200px;
+    height: 240px;
+    margin: 100px auto 110px;
+    background: url('../img/yezhu_sibu.jpg') no-repeat center;
+    background-size: 100%;
+}
+/* 图 */
+.cwyz_pirce>ul{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 90px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.cwyz_pirce_list{
+    width: 388px;
+    height: 258px;
+    float: left;
+    margin-bottom: 10px;
+}
+.cwyz_pirce_list:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+/* 大城小屋登陆亚洲第一屏 */
+.cwyz_land .cwyz_land_title{
+    width: 1100px;
+}
+.cwyz_land_middle{
+    width: 600px;
+    margin-left: 40px;
+}
+.cwyz_land_center{
+    width: 1200px;
+    margin: 50px auto;
+}
+.cwyz_land_left{
+    width: 812px;
+    height: 552px;
+    background: url('../img/yezhu_guanggao1.jpg') no-repeat center;
+    background-size: 100%;
+    float: left;
+}
+.cwyz_land_right{
+    float: right;
+}
+.cwyz_land_right p{
+    width: 373px;
+    height: 268px;
+    background: url('../img/yezhu_guanggao2.jpg') no-repeat center;
+    background-size: 100%;
+}
+.cwyz_land_right>.cwyz_img2{
+    margin-top: 16px;
+    background: url('../img/yezhu_guanggao3.jpg') no-repeat center;
+
 }
