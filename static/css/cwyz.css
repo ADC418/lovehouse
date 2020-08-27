@@ -175,7 +175,7 @@
 .cwyz_mind2{
     width: 566px;
     height: 297px;
-    background: url('../img/yezhu_guanjia1.jpg') no-repeat center;
+    background: url('../img/yezhu_guanjia2.jpg') no-repeat center;
     background-size: cover;
     margin-right: 25px;
     margin: 23px 0 23px 23px;
@@ -185,6 +185,15 @@
 .cwyz_mind1:hover,.cwyz_mind2:hover{
     box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
+.cwyz_mind3{
+    background: url('../img/yezhu_guanjia3.jpg') no-repeat center;
+
+}
+.cwyz_mind4{
+    background: url('../img/yezhu_guanjia4.jpg') no-repeat center;
+
+}
+
 .cwyz_txt{
     width: 100%;
     height: 124px;
@@ -363,4 +372,211 @@
     margin-top: 16px;
     background: url('../img/yezhu_guanggao3.jpg') no-repeat center;
 
+}
+.cwyz_contact{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+   
+}
+.cwyz_contactL{
+    width: 328px;
+    height: 530px;
+    padding: 70px 66px 0;
+    background: rgba(255,87,34,.9);
+    /* 左上角左下角 */
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    float: left;
+}
+.cwyz_contact_title{
+    color: #fff;
+    margin-bottom: 44px;
+}
+.cwyz_contact_title h2{
+    font-size: 26px;
+    /* 文本中的每个单词以大写字母开头。 */
+    text-transform: capitalize;;
+}
+.cwyz_item{
+  width: 328px;
+    height: 46px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    position: relative;
+
+}  
+.cwyz_contact_title h5{
+    font-size: 30px;
+    margin-top: 14px;
+}
+.cwyz_item label{
+    font-size: 16px;
+    color: #9d9d9d;
+    width: 80px;
+    height: 46px;
+    /* line-height: 46px; */
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    display: inline-block;
+    padding-left: 20px;
+   
+   
+}
+.cwyz_item input{
+    width: 220px;
+    padding-left: 108px;
+    outline: none;  
+}
+.cwyz_i{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 7px solid #9d9d9d;
+    position: absolute;
+    right: 10px;
+    top: 40%;
+}
+
+.cwyz_opti .cwyz_i{
+    transition: all 0.4s ease-in-out;
+   
+}
+/* .cwyz_select .cwdz_area{
+    transition: all 0.4s ease-in-out;
+   
+} */
+
+.cwdz_area{
+    border: 1px solid #d2d2d2;
+    height: 288px;
+    /* height: 0; */
+    width: 200px;
+    background-color: #fff;
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    /* bottom: 38px; */
+    overflow-y: auto;
+    padding: 5px 0;
+    text-align: left;
+    /* opacity: 0; */
+    display: none;
+}
+.cwdz_area_list{
+    line-height: 36px;
+    padding: 0 10px;
+}
+.cwyz_submit{
+    display: inline-block;
+    width: 192px;
+    height: 45px;
+    font-size: 18px;
+    color: #ff5722;
+    background: #fff;
+    /* margin: 30px 0 0 65px; */
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    padding: 0 18px;
+}
+.cwyz-tige{
+    position: absolute;
+    bottom: -26px;
+    left: 93px;
+    color: #fff;
+    display: none;
+}
+.cwyz_contactR{
+    width: 598px;
+    height: 520px;
+    background: rgba(255,255,255,1);
+    padding: 70px 66px 0;
+    float: left;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 5px solid rgba(255,87,34,.9);
+    text-align: center;
+}
+.cwyz_contact_txt{
+    margin-bottom: 38px;
+
+}
+.cwyz_contact_txt h2{
+    font-size: 30px;
+    color: #ff5722;
+    text-transform: capitalize;
+}
+.cwyz_contact_txt p{
+    font-size:36px;
+    color: #393d49;
+    margin: 14px 0 0 0;
+
+}
+.cwyz_message{
+    margin-bottom: 50px;
+}
+.cwyz_message li{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+
+}
+.cwyz_img{
+    height: 60px;
+    line-height: 80px;
+    float: left;
+}
+.cwyz_message img{
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cwyz_message p{
+    font-size: 20px;
+    color: #3f3f3f;
+    line-height: 23px;
+    float: left;
+    margin: 30px 0 0 30px;
+    vertical-align: middle;
+}
+.cwyz_message .cwyz_color{
+    color: rgb(119, 119, 119);
+}
+.cwyz_weixin{
+    height: 20px;
+    font-size: 0;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+.cwyz_weixin::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 10px;
+    left: 0;
+    background: #d7d8db;
+}
+.cwyz_weixin::after {
+    content: "";
+    position: absolute;
+    width: 114px;
+    height: 50px;
+    top: 5px;
+    left: 50%;
+    margin-left: -57px;
+    background: #fff;
+}
+.cwyz_weixin li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 6px;
+    position: relative;
+    z-index: 10;
 }

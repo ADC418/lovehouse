@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+    div {
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    #return {
+        color: red;
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <div>
+        <h2>恭喜您，操作成功</h2>
+        <span id="return">5</span>秒后自动返回首页
+        <p><button class="back">立即返回</button></p>
+    </div>
+    <script src="/js/jquery.js"></script>
+    <script>
+        // 加载页面时触发定时器
+        window.onload = function () {
+            var index = 5;
+            var timer = setInterval(function () {
+                index--;
+                console.log(index)
+                $('#return').text(index) ;
+                if (index == 0) {
+                    location.href = "http://localhost:3000/cwyz"
+                }
+
+            }, 1000)
+
+            //点击立即返回按钮返回
+            $('.back').on('click', function () {
+                location.href = "http://localhost:3000/cwyz"
+            })
+
+
+        }
+    </script>
+
+</body>
+
+</html>

@@ -35,6 +35,10 @@ app.get('/xwkx', function (req, res) {
 app.get('/jfgz', function (req, res) {
     res.render('jfgz')
 })
+// 添加表单提交的接口
+app.post('/submit', function (req, res) {
+    res.render('submit')
+})
 
 module.exports = {
     app
