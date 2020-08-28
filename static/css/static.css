@@ -145,21 +145,21 @@ li{
     width: 1280px;
     position: relative;
 }
-.xwkx_pic{
+.simg{
     height: 354px;
     float: left;
     padding-right: 64px;
     border-bottom: 1px dashed #898989;
    
 }
-.xwkx_pic img{
+.simg img{
     width: 400px;
     float: left;
     height: 250px;
     margin-top: 52px;
     transition: all .2s;
 }
-.xwkx_pic img:hover{
+.simg img:hover{
     transform: scale(1.05);
 }
 .xwkx_txt{
@@ -169,7 +169,7 @@ li{
     margin-top: 85px;
     border-bottom: 1px dashed #898989;
 }
-.xwkx_txt h5{
+.xwkx_txt .stit{
     color: #ff5722;
     font-size: 35px;
     width: 100%;
@@ -179,7 +179,7 @@ li{
     font-weight: 100;
     margin-bottom: 19px;
 }
-.xwkx_txt p{
+.xwkx_txt .sdesc{
     font-size: 14px;
     color: #797979;
     line-height: 24px;

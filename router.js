@@ -2,6 +2,7 @@ var express = require('express');
 var ejs = require('ejs');
 var app = express();
 
+
 app.engine('html', ejs.__express);
 app.set('view engine', 'html');
 //使用中间件
@@ -35,9 +36,17 @@ app.get('/xwkx', function (req, res) {
 app.get('/jfgz', function (req, res) {
     res.render('jfgz')
 })
+
 app.get('/more', function (req, res) {
     res.render('xwkx_more')
 })
+
+
+app.post('/doSubmit', function (req, res) {
+    res.render('index')
+})
+
+
 module.exports = {
     app
 }
