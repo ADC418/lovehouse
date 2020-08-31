@@ -32,6 +32,9 @@ $(function () {
         slidesPerView: 3,
         spaceBetween: 30,
         centeredSlides: true,
+        // 解决轮播图滑动左侧有时会出现空白问题
+        centeredSlidesBounds: true,
+        loopAdditionalSlides:100
        
         // pagination: {
         //   el: '.swiper-pagination',
@@ -40,7 +43,7 @@ $(function () {
       });
 
 
-      
+
       //地图
      
       var myChart = echarts.init(document.getElementById('china-map'));
@@ -80,7 +83,7 @@ $(function () {
                   }
               },
               data: [
-                  { name: '陕西', selected: true }//陕西为选中状态
+                  { name: '陕西', selected: true}//陕西为选中状态
               ]
           }],
       };
