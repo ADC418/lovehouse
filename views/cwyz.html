@@ -235,19 +235,19 @@
             <form action="/submit" method="POST">
                 <div class="cwyz_item">
                     <label for="">您的姓名：</label>
-                    <input type="pattern" required="required" class="cwyz_name">
+                    <input type="pattern" required="true" class="cwyz_name">
                     <!-- <small class="cwyz-tige cwyz-tige1">请输入您的姓名</small> -->
                 </div>
                 <div class="cwyz_item">
                     <label for="">联系电话：</label>
                     <!--  pattern="1[3456789]\d{9}$" -->
-                    <input type="number" class="cwyz_tel" required="required" />
+                    <input type="number" class="cwyz_tel" required="true" />
                     <!-- <small class="cwyz-tige cwyz-tige2">请输入您的电话</small> -->
                 </div>
                 <div class="cwyz_item cwyz_select">
                     <div class="cwyz_opti">
                         <label for="">所在地区：</label>
-                        <input type="text" class="cwyz_sel" value="" required="required">
+                        <input type="text" class="cwyz_sel" value="" required="true">
                         <div class="cwyz_i"></div>
                     </div>
                     <ul class="cwdz_area">
@@ -294,14 +294,14 @@
                 </li>
                 <li>
                     <div class="cwyz_img">
-                        <img src="./img/cwyz_adress02.png" alt="">                       
-                    </div>                  
+                        <img src="./img/cwyz_adress02.png" alt="">
+                    </div>
                     <p class="cwyz_color"> 4009961585</p>
                 </li>
                 <li>
                     <div class="cwyz_img">
                         <img src="./img/cwyz_adress03.png" alt="">
-                        
+
                     </div>
                     <p>h19909263785@163.com</p>
                 </li>
@@ -381,23 +381,25 @@
             $(".cwyz_sel").val(val);
         })
         // 表单提交验证
-
-        $('.cwyz_submit').on('click', function () {
-            console.log(111)
+       
+        if(required===true){
+            $('.cwyz_submit').on('click', function () {
+            // $('.cwdz_area_list').on("click", function () {
+            //     var val = "";
+            //     val = $(".cwdz_area_list").eq($(this).index()).text();
+            //     $(".cwyz_sel").val(val);
+            //     // location.href = "/submit.html"
+                
+            // })
+            
+            // conssole.log(111)
             location.href = "/submit.html"
 
         })
 
-        // $('.cwyz_submit').on('click', function () {
-        //     if ($('.cwyz_name').val === 0) {
-        //         $(".cwyz-tige1").css('display', 'block')
+        }
 
-        //     }
-        //     // 判断手机号
-        //      if (!/^1[3456789]\d{9}$/.test($('.cwyz_tel').val())) {
-        //         $(".cwyz-tige2").css('display','block')
-        //     }
-        // })
+        
 
 
 

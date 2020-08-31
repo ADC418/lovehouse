@@ -39,4 +39,57 @@ $(function () {
         // },
       });
 
+
+      
+      //地图
+     
+      var myChart = echarts.init(document.getElementById('china-map'));
+      // console.log(myChart)
+      var option = {
+          tooltip: {
+              // show: false //不显示提示标签
+              formatter: '{b}', //提示标签格式
+              backgroundColor: "#fff",//提示标签背景颜色
+              textStyle: { color: "#000" } ,//提示标签字体颜色
+
+          },
+          series: [{
+              type: 'map',
+              mapType: 'china',
+              label: {
+                  normal: {
+                      show: true,//显示省份标签
+                      textStyle: { color: "#000" }//省份标签字体颜色
+                  },
+                  emphasis: {//对应的鼠标悬浮效果
+                      show: true,
+                      textStyle: { color: "#fff" }
+
+                  }
+              },
+              itemStyle: {
+                  normal: {
+                      borderWidth: .5,//区域边框宽度
+                      borderColor: '#fff',//区域边框颜色
+                      areaColor: "#d3d1d1",//区域颜色
+                  },
+                  emphasis: {
+                      borderWidth: .5,
+                      borderColor: '#fff',//鼠标经过显示的边框颜色
+                      areaColor: "orange",//鼠标经过显示的区域背景颜色
+                  }
+              },
+              data: [
+                  { name: '陕西', selected: true }//陕西为选中状态
+              ]
+          }],
+      };
+
+      myChart.setOption(option);
+      myChart.on('mouseover', function (params) {
+          var dataIndex = params.dataIndex;
+          // console.log(params);
+      });
+ 
+
 })

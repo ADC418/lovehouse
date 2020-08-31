@@ -133,7 +133,7 @@
     width: 1200px;
     margin: 0 auto;
     height: 800px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     position: relative;
 }
 
@@ -236,4 +236,21 @@
     height: 1453px;
     width: 1196px;
     margin: 0 auto 100px;
+}
+/* 地图 */
+#china-map {
+    width: 1200px;
+    height: 800px;
+
+    /* margin: auto; */
+}
+.gyqy_map{
+    position: relative;
+}
+ #china-map {
+     position: absolute;
+    top: -65px;
+    left: 0px;
+    z-index: 5;
+    
 }

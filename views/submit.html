@@ -7,7 +7,7 @@
     <title></title>
 </head>
 <style>
-    div {
+    .cwyz_sub2 {
         margin: 0 auto;
         width: 500px;
     }
@@ -16,13 +16,27 @@
         color: red;
         font-size: 30px;
     }
+
+    .cwyz_sub2 h2 {
+        font-size: 16px;
+    }
+
+    .back {
+
+        border: none;
+        background-color: transparent;
+        outline: none;
+        color: rgb(37, 37, 250);
+
+
+    }
 </style>
 
 <body>
-    <div>
-        <h2>恭喜您，操作成功</h2>
+    <div class="cwyz_sub2">
+        <h2>操作成功</h2>
         <span id="return">5</span>秒后自动返回首页
-        <p><button class="back">立即返回</button></p>
+        <p><button class="back">如果您的浏览器没有自动跳转请点击此处</button></p>
     </div>
     <script src="/js/jquery.js"></script>
     <script>
@@ -32,7 +46,7 @@
             var timer = setInterval(function () {
                 index--;
                 console.log(index)
-                $('#return').text(index) ;
+                $('#return').text(index);
                 if (index == 0) {
                     location.href = "http://localhost:3000/cwyz"
                 }
