@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/swiper.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/icon-font/font_2027727_uph90647keh/iconfont.css">
+    <title>主页面</title>
+</head>
+
+<body>
+    <%- include("header.html")%>
+        <div class="fixed" id="#myMenu">
+            <ul>
+                <li class="dh dh-active" data-menuanchor="dh1">
+                    <a href="#dh1">
+                        <span class="round"></span>
+                    </a>
+                    <p class="title"></p>
+                </li>
+                <li class="dh" data-menuanchor="dh2">
+                    <a href="#dh2">
+                        <span class="round"></span>
+                    </a>
+                    <p class="title"></p>
+                </li>
+                <li class="dh" data-menuanchor="dh3">
+                    <a href="#dh3">
+                        <span class="round"></span>
+                    </a>
+                    <p class="title"></p>
+                </li>
+                <li class="dh" data-menuanchor="dh4">
+                    <a href="#dh4">
+                        <span class="round"></span>
+                    </a>
+                    <p class="title"></p>
+                </li>
+                <li class="dh" data-menuanchor="dh5">
+                    <a href="#dh5">
+                        <span class="round"></span>
+                    </a>
+                    <p class="title"></p>
+                </li>
+                <li class="dh" data-menuanchor="dh6">
+                    <a href="#dh6">
+                        <span class="round"></span>
+                    </a>
+                    <p class="title"></p>
+                </li>
+                <li class="dh" data-menuanchor="dh7">
+                    <a href="#dh7">
+                        <span class="round"></span>
+                    </a>
+                    <p class="title"></p>
+                </li>
+                <li class="dh" data-menuanchor="dh8">
+                    <a href="#dh8">
+                        <span class="round"></span>
+                    </a>
+                    <p class="title"></p>
+                </li>
+                <li class="dh" data-menuanchor="dh9">
+                    <a href="#dh9">
+                        <span class="round"></span>
+                    </a>
+                    <p class="title"></p>
+                </li>
+
+            </ul>
+        </div>
+        <div class="zbody">
+            <!-- 首页主体内容 -->
+            <!-- first轮播 -->
+            <div class="box section active">
+                <div class="swiper-container" style="width: 100%; height:100%;">
+                    <div class="swiper-wrapper" style="width: 400%; height: 100%;">
+                        <div class="swiper-slide s-img1"></div>
+                        <div class="swiper-slide s-img2"></div>
+                        <div class="swiper-slide s-img3"></div>
+                        <div class="swiper-slide s-img4"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- second -->
+            <div class="box section second">
+                <div class="c-left">
+                    <ul>
+                        <li class="computed">
+                            <h4>
+                                <span class="c-font">25</span>
+                                <span>家</span>
+                            </h4>
+                            <h6>子公司个数</h6>
+                        </li>
+                        <li class="computed">
+                            <h4>
+                                <span class="c-font">1000</span>
+                                <span>余</span>
+                            </h4>
+                            <h6>员工人数</h6>
+                        </li>
+                        <li class="computed">
+                            <h4>
+                                <span class="c-font">19</span>
+                                <span>个</span>
+                            </h4>
+                            <h6>覆盖城市的个数</h6>
+                        </li>
+                        <li class="computed">
+                            <h4>
+                                <span class="c-font">20000</span>
+                                <span>人</span>
+                            </h4>
+                            <h6>全国服务租客人数</h6>
+                        </li>
+                    </ul>
+                </div>
+                <div class="c-right">
+                    <div class="c-rightTop">
+                        <h2>Brand Zone</h2>
+                        <h5>品牌专区</h5>
+                    </div>
+                    <div id="china-map"></div>
+                </div>
+            </div>
+            <!-- third -->
+            <div class="box section third">
+                <div class="t-head">
+                    <h2>Quality Rental Environment</h2>
+                    <h3>品质租住环境</h3>
+                </div>
+                <div class="t-body">
+                    <video src="https://www.100xw.cn/statics/style/pc/images/xiaowuheji.mp4" muted autoplay controls></video>
+                    <ul class="t-list">
+                        <li>
+                            <div class="t-font other1"></div>
+                            <p>优质石塑集成墙板</p>
+                        </li>
+                        <li>
+                            <div class="t-font other2"></div>
+                            <p>环保认证0甲醛材料</p>
+                        </li>
+                        <li>
+                            <div class="t-font other3"></div>
+                            <p>49道关键工序</p>
+                        </li>
+                        <li>
+                            <div class="t-font other4"></div>
+                            <p>空气质量检测</p>
+                        </li>
+                        <li>
+                            <div class="t-font other5"></div>
+                            <p>空置达标后入住</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- fourth -->
+            <div class="box section fourth">
+                <div class="f-first ">
+                    <img class="f-g1  f-g-active" src="/img/index402.jpg" alt="">
+                    <img class="f-g2   f-g-active" src="/img/index403.jpg" alt="">
+                    <img class="f-g3 " src="/img/index404.jpg" alt="">
+                    <img class="f-g4" src="/img/index405.jpg" alt="">
+                    <ul>
+                        <li class="f-hov1">
+                            <h5>“0”甲醛</h5>
+                            <span></span>
+                            <p>“智能新风系统”为国内行业首创，具有防霾、除醛、富氧、静音、节能五大优势，在不开窗的状态下，完成室内通风换气。</p>
+                        </li>
+                        <li class="f-hov2">
+                            <h5>安全环保</h5>
+                            <span></span>
+                            <p>建立了一整套包括源头控制、净化处理、通风换气等手段在内的室内空气污染物控制对策，为租客打造一个安全、健康、舒适的室内居住环境。</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="f-second">
+                    <img class="f-g5" src="/img/index406.jpg" alt="">
+                    <img class="f-g6" src="/img/index407.jpg" alt="">
+                    <img class="f-g7" src="/img/index408.jpg" alt="">
+                    <img class="f-g8" src="/img/index409.jpg" alt="">
+                    <ul>
+                        <li class="f-hov3">
+                            <h5>创意家居</h5>
+                            <span></span>
+                            <p>精心原创设计的家具配饰，融合在不同色调的房间内，无论喜欢简约实用的风格，还是现代浪漫的气息，都能找到属于你的那款。</p>
+                        </li>
+                        <li class="f-hov3">
+                            <h5>创意家电</h5>
+                            <span></span>
+                            <p>智能电子门锁匹配到每间房屋，与长虹，九牧，奥马等一线家电品牌开展深入的战略合作，将新技术、新概念的引入，逐渐加入IT技术、电子化的数据，为租客打造全新的家电体验。</p>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+            <!-- fifth -->
+            <div class="box section fifth">
+                <div class="fifth-prev">
+                    <div class="swiper-box" style="width:1200px; height:420px;">
+                        <div class="swiper-bigbox" style="width: 300%; height:390px;">
+                            <div class="f-slide"><img src="/img/index501.gif" alt=""></div>
+                            <div class="f-slide"><img src="/img/index502.gif" alt=""></div>
+                            <div class="f-slide"><img src="/img/index503.gif" alt=""></div>
+                            <div class="f-slide"><img src="/img/index504.gif" alt=""></div>
+                            <div class="f-slide"><img src="/img/index505.gif" alt=""></div>
+                            <div class="f-slide"><img src="/img/index506.gif" alt=""></div>
+                            <div class="f-slide"><img src="/img/index507.gif" alt=""></div>
+                            <div class="f-slide"><img src="/img/index508.gif" alt=""></div>
+                            <div class="f-slide"><img src="/img/index509.gif" alt=""></div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-f-prev iconfont">&#xe771;</div>
+                    <div class="swiper-f-next iconfont">&#xe62b;</div>
+                </div>
+
+            </div>
+            <!-- sixth -->
+            <div class="box section sixth">
+                <div class="sixth-box">
+                    <div class="s-head">
+                        <h2>Enterprise Honor</h2>
+                        <h5>企业荣誉</h5>
+                    </div>
+                    <div class="swiper-s-body">
+                        <div class="swiper-s-bigbox">
+                            <div class="swiper-s-view"><img src="/img/zhengshu1.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu2.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu3.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu4.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu5.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu7.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu8.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu9.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu10.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu11.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu12.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu13.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu14.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu15.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu16.jpg" alt=""></div>
+                            <div class="swiper-s-view"><img src="/img/zhengshu17.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- seventh -->
+            <div class="box section seventh">
+                <div class="seventh-head">
+                    <h2>Enterprise Honor</h2>
+                    <h5>企业荣誉</h5>
+                </div>
+                <div class="seventh-body">
+                    <p>
+                        <span>公司新闻</span>
+                        <span>行业资讯</span>
+                        <span>最新动态</span>
+                    </p>
+                    <div class="seventh-news">
+                        <div class="seventh-news-box ">
+                            <img src="/img/index701.jpg" alt="">
+                            <div class="news-right">
+                                <div class="news-head">
+                                    <h6>2020.08.20</h6>
+                                    <a href="/xwkx">
+                                        <p>M O R E</p>
+                                    </a>
+                                </div>
+                                <h5>
+                                    <a href="/more">活动回顾丨大城小屋西安业主在粉巷来了一场不一般的神秘Party......</a>
+                                </h5>
+                                <p>恒城永昶集团旗下奢侈品交易平台猫腻奢品携手大城小屋，举办了“猫腻奢品线下品鉴沙龙（第...</p>
+                            </div>
+                        </div>
+                        <div class="seventh-news-box ">
+                            <img src="/img/index703.png" alt="">
+                            <div class="news-right">
+                                <div class="news-head">
+                                    <h6>2020.08.15</h6>
+                                    <a href="/xwkx">
+                                        <p>M O R E</p>
+                                    </a>
+                                </div>
+                                <h5>
+                                    <a href="/more">大城小屋装修巡检丨装修问题绿色反馈通道，等你来反馈！..</a>
+                                </h5>
+                                <p>今天小屋特意给大家带来装修问题绿色反馈通道，小屋将统一搜集装修有问题的业主，统一进行反...</p>
+                            </div>
+                        </div>
+                        <div class="seventh-news-box news-box">
+                            <img src="/img/index701.jpg" alt="">
+                            <div class="news-right">
+                                <div class="news-head">
+                                    <h6>2020.08.13</h6>
+                                    <a href="/xwkx">
+                                        <p>M O R E</p>
+                                    </a>
+                                </div>
+                                <h5>
+                                    <a href="/more">“巢客”跑路，暴雷事件再起，到底如何避开不良长租公寓企业？...</a>
+                                </h5>
+                                <p>又一家包租公司疑似卷款跑路，这次是「巢客遇家」。</p>
+                            </div>
+                        </div>
+                        <div class="seventh-news-box  news-box">
+                            <img src="/img/index701.jpg" alt="">
+                            <div class="news-right">
+                                <div class="news-head">
+                                    <h6>2020.08.06</h6>
+                                    <a href="/xwkx">
+                                        <p>M O R E</p>
+                                    </a>
+                                </div>
+                                <h5>
+                                    <a href="/more">做背后支持者，从西安到大连再到成都，他在大城小屋经历了什么？......</a>
+                                </h5>
+                                <p>在大城小屋，每天都有很多新人入职，作为新的一份子，他们渴望更快融入这个大家庭，而了解一...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- eigth -->
+            <div class="box section  eigth">
+                <div class="e-left">
+                    <div class="e-left-content">
+                        <div class="e-left-one">
+                            <h2>Cottage owner</h2>
+                            <h3>小屋业主</h3>
+                        </div>
+                        <div class="e-left-two">
+                            <h3>八大服务保障 让您全无后顾之忧</h3>
+                            <p>我们的服务，从房屋委托前期开始，持续到房屋退租，无微不至，始终相伴<br>四步委托流程 使您坐享房租收益</p>
+                        </div>
+                        <a href="/cwyz">View More</a>
+                    </div>
+                </div>
+                <div class="e-right">
+                    <div class="e-right-content">
+                        <div class="e-right-one">
+                            <h2>Tenant home</h2>
+                            <h3>租客之家</h3>
+                        </div>
+                        <div class="e-right-two">
+                            <h3>每一栋智能公寓都经过悉心挑选</h3>
+                            <p>未来3-5年，小屋智能公寓将会在全国甚至世界范围一线城市，及主要<br>省会城市打造连锁公寓，更多小屋智能公寓正在解锁中...</p>
+                        </div>
+                        <a href="/wyzf">View More</a>
+                    </div>
+                </div>
+
+                <!-- ninth -->
+            </div>
+            <div class="box section ninth">
+                <div class="cwyz_contact clearfix">
+                    <div class="cwyz_contactL">
+                        <div class="cwyz_contact_title">
+                            <h2>House hosting</h2>
+                            <h5>快速托管房屋</h5>
+                        </div>
+                        <!-- /doSubmit -->
+                        <form action="/submit" method="POST">
+                            <div class="cwyz_item">
+                                <label for="">您的姓名：</label>
+                                <input type="pattern" required="true" class="cwyz_name ">
+                                <!-- <small class="cwyz-tige cwyz-tige1">请输入您的姓名</small> -->
+                            </div>
+                            <div class="cwyz_item">
+                                <label for="">联系电话：</label>
+                                <!--  pattern="1[3456789]\d{9}$" -->
+                                <input type="text" class="cwyz_tel" required="true" />
+                                <!-- <small class="cwyz-tige cwyz-tige2">请输入您的电话</small> -->
+                            </div>
+                            <div class="cwyz_item cwyz_select">
+                                <div class="cwyz_opti">
+                                    <label for="">所在地区：</label>
+                                    <input type="text" class="cwyz_sel" value="" required="true">
+                                    <div class="cwyz_i"></div>
+                                </div>
+                                <ul class="cwdz_area">
+                                    <li class="cwdz_area_list">西安市</li>
+                                    <li class="cwdz_area_list">咸阳市</li>
+                                    <li class="cwdz_area_list">重庆市</li>
+                                    <li class="cwdz_area_list">成都市</li>
+                                    <li class="cwdz_area_list">杭州市</li>
+                                    <li class="cwdz_area_list">南京市</li>
+                                    <li class="cwdz_area_list">宁波市</li>
+                                    <li class="cwdz_area_list">苏州市</li>
+                                    <li class="cwdz_area_list">天津市</li>
+                                    <li class="cwdz_area_list">长沙市</li>
+                                    <li class="cwdz_area_list">武汉市</li>
+                                    <li class="cwdz_area_list">郑州市</li>
+                                    <li class="cwdz_area_list">济南市</li>
+                                    <li class="cwdz_area_list">青岛市</li>
+                                    <li class="cwdz_area_list">大连市</li>
+                                    <li class="cwdz_area_list">石家庄市</li>
+                                    <li class="cwdz_area_list">太原市</li>
+                                    <li class="cwdz_area_list">廊坊市</li>
+                                    <li class="cwdz_area_list">福州市</li>
+                                    <li class="cwdz_area_list">昆明市</li>
+                                    <li class="cwdz_area_list">贵阳市</li>
+
+                                </ul>
+
+
+                            </div>
+                            <div class="cwyz_button">
+                                <button class="cwyz_submit">提交</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="cwyz_contactR">
+                        <div class="cwyz_contact_txt">
+                            <h2>Contact us</h2>
+                            <p>联系我们</p>
+                        </div>
+                        <ul class="cwyz_message">
+                            <li>
+                                <div class="cwyz_img">
+                                    <img src="/img/index901.png" alt="">
+                                </div>
+                                <p>陕西省西安市雁塔区唐延路中段37号乙号洛克大厦27F</p>
+                            </li>
+                            <li>
+                                <div class="cwyz_img">
+                                    <img src="/img/index902.png" alt="">
+                                </div>
+                                <p class="cwyz_color"> 4009961585</p>
+                            </li>
+                            <li>
+                                <div class="cwyz_img">
+                                    <img src="/img/index903.png" alt="">
+
+                                </div>
+                                <p>h19909263785@163.com</p>
+                            </li>
+                        </ul>
+                        <ul class="cwyz_weixin">
+                            <li>
+                                <img src="/img/index904.png" alt="">
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <p id="only">版权声明 © 2018-2020 陕西大城小屋不动产管理有限公司 版权所有 &nbsp;陕ICP备18007211号</p>
+            </div>
+
+        </div>
+        <!-- https://www.cnblogs.com/linfblog/p/12150971.html -->
+        <%- include("footer.html")%>
+
+            <script src="/js/echarts.min.js"></script>
+            <script src="/js/china.js"></script>
+            <script src="/js/jquery.js"></script>
+            <script src="/js/swiper.js"></script>
+            <script src="/js/index.js"></script>
+            <script src="/js/fullpage.js"></script>
+            <!-- <script src="/js/scroll.js"></script> -->
+
+            <script>
+                $(".zbody").fullpage({
+                    menu: '#myMenu',
+                    anchors: ['dh1', 'dh2', 'dh3', 'dh4', 'dh5', 'dh6', 'dh7', 'dh8', 'dh9'],
+                    navigation: false,
+                    lockAnchors: false,
+                    setLockAnchors: false,
+                    setRecordHistory: false,
+                    animateAnchor: false,
+                    fitToSection: true,
+                    // animateAnchor: false
+                    // navigationPosition: 'right',
+                    // navigationTooltips: ['firstSlide', 'secondSlide']
+                    afterLoad: function(anchorLink, index) {
+                        $('.dh').eq([index.index]).addClass('dh-active').siblings().removeClass('dh-active')
+
+                        // console.log($(index.item).children().children().eq(0).children())
+                        if (index.index === 1) {
+                            var num = 0;
+                            var peopleNum = 0;
+                            var oneNum = 0;
+                            var peoNum = 1000;
+                            var timer1 = setInterval(function() {
+                                num++
+                                if (num === 25) {
+                                    clearInterval(timer1)
+                                }
+                                $(index.item).children().find('ul h4').eq(0).children().first('span').text(
+                                    num)
+                            }, 100)
+                            var timer2 = setInterval(function() {
+                                peopleNum += 2
+                                if (peopleNum === 1000) {
+                                    clearInterval(timer2)
+                                }
+                                $(index.item).children().find('ul h4').eq(1).children().first('span').text(
+                                    peopleNum)
+                            }, 3)
+                            var timer3 = setInterval(function() {
+                                oneNum++
+                                if (oneNum === 19) {
+                                    clearInterval(timer3)
+                                }
+                                $(index.item).children().find('ul h4').eq(2).children().first('span').text(
+                                    oneNum)
+                            }, 120)
+                            var timer4 = setInterval(function() {
+                                peoNum += 1000
+                                if (peoNum === 200000) {
+                                    clearInterval(timer4)
+                                }
+                                $(index.item).children().find('ul h4').eq(3).children().first('span').text(
+                                    peoNum)
+                            }, 13)
+
+                            // console.log($(index.item).children().find('ul'))
+                            $(index.item).children().children().find('ul').css({
+                                "bottom": "0"
+                            })
+
+                            $(index.item).children().children().find('.c-rightTop').css({
+                                "top": "160px",
+
+                                "opacity": "1"
+                            })
+                        } else {
+
+                            $(index.item).children().children().find('ul').css({
+
+                                "bottom": "-954px"
+                            })
+                            $(index.item).children().children().find('.c-rightTop').css({
+                                "top": "0px",
+                                "opacity": "1"
+                            })
+                        }
+
+                        if (index.index === 2) {
+                            $(index.item).children().find('.t-head').css({
+                                "top": "0",
+                                "opacity": "1"
+                            })
+                        } else if (index.index === 5) {
+                            $(index.item).children().find('.s-head').css({
+                                "top": "25%",
+                                "opacity": "1"
+                            })
+                        } else if (index.index === 6) {
+                            $(index.item).children().find('.seventh-head').css({
+                                "top": "200px",
+                                "opacity": "1"
+                            })
+                        } else if (index.index === 7) {
+                            $(index.item).children().find('.e-left-content').css({
+                                "right": "60px",
+                                "opacity": "1"
+                            })
+                            $(index.item).children().find('.e-right-content').css({
+                                "left": "60px",
+                                "opacity": "1"
+                            })
+                        } else if (index.index === 8) {
+                            $('.cwyz_contactL').css({
+                                "transform": "translateX(0px)",
+                                "opacity": "1"
+                            })
+                            $('.cwyz_contactR').css({
+                                "transform": "translateX(0px)",
+                                "opacity": "1"
+                            })
+                        }
+
+                    }
+                });
+            </script>
+</body>
+
+</html>
