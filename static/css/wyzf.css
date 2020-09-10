@@ -1,0 +1,243 @@
+.zufang1, .zufang2 {
+    width: 100%;
+    height: 600px;
+}
+
+.zufang {
+    width: 100%;
+    height: 570px;
+    background: url('../img/zufang.jpg');
+}
+
+.zufang_center {
+    width: 1200px;
+    height: 570px;
+    margin: 0 auto;
+}
+
+.zufang_left1 {
+    padding-top: 27px;
+    margin-left: 10px;
+}
+
+.zufang_left {
+    float: left;
+}
+
+.zufang_right {
+    float: right;
+}
+
+.gyzs {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.gyzs_list {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.zufang_right img {
+    margin-top: 13px;
+}
+
+.moveapp {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.contactUs {
+    width: 100%;
+    height: 520px;
+    padding: 100px 0;
+    background: url('/img/zufang10.jpg') no-repeat;
+}
+
+.contactUs_1 {
+    width: 1200px;
+    height: 530px;
+    margin: 0 auto;
+}
+
+.programme {
+    width: 328px;
+    height: 460px;
+    padding: 70px 66px 0;
+    background-color: #5Db1A6E6;
+    border-radius: 20px 0 0 20px;
+}
+
+.programme_1 {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.programme_2 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.iptName {
+    outline: none;
+    padding-left: 110px;
+    width: 218px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+}
+
+.contact {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.programmeName {
+    position: absolute;
+    left: 30px;
+    top: 0px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #6d6d6d;
+}
+
+.programmetel {
+    position: absolute;
+    left: 30px;
+    top: 60px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #6d6d6d;
+}
+
+.programmecity {
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #6d6d6d;
+}
+
+.iconfont {
+    position: absolute;
+    right: 10px;
+    top: 135px;
+    color: #9d9d9d;
+    cursor: pointer;
+}
+
+.iptcity {
+    cursor: pointer;
+}
+
+.submit {
+    font-size: 18px;
+    width: 60%;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 8px 8px 8px 8px;
+    color: #000;
+    background-color: #fff;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.submit:hover {
+    transition: 1s;
+    opacity: .7;
+}
+
+.contactUs_left {
+    float: left;
+}
+
+.contactUs_right {
+    float: right;
+    background-color: #ffffff;
+    width: 608px;
+    height: 460px;
+    padding: 70px 66px 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.ontact_Us {
+    width: 608px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.ontact_Us h2 {
+    color: #63c2b7;
+    font-size: 30px;
+}
+
+.ontact_Us h5 {
+    font-size: 36px;
+    margin-top: 14px;
+    color: #393D49;
+}
+
+.contactUs_right ul li {
+    width: 100%;
+    height: 60px;
+    line-height: 80px;
+}
+
+.contactUs_right ul li h3 {
+    height: 60px;
+    line-height: 80px;
+    float: left;
+}
+
+.contactUs_right ul li img {
+    width: 30px;
+    margin-top: 25px;
+}
+
+.contactUs_right ul li span {
+    font-size: 20px;
+    color: #3f3f3f;
+    line-height: 23px;
+    float: left;
+    margin: 30px 0 0 30px;
+}
+
+.borderleft {
+    width: 240px;
+    height: 10px;
+    border: 1px solid #d7d8db;
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.wxtb_wx {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.borderright {
+    width: 240px;
+    height: 10px;
+    border: 1px solid #d7d8db;
+    display: inline-block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}

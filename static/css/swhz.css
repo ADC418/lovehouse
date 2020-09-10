@@ -1,0 +1,236 @@
+.swhztou img {
+    width: 100%;
+    height: 330px;
+}
+
+.nav_title {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.nav_titleBox {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.nav_left a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav_left div strong {
+    width: 64px;
+    height: 60px;
+    font-size: 16px;
+    padding: 0 38px;
+    display: inline-block;
+    background: #ff5722;
+    color: #fff;
+    height: 60px;
+    position: relative;
+}
+
+.nav_left a strong::before {
+    content: "";
+    width: 10px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+}
+
+.nav_left a strong::after {
+    content: "";
+    width: 10px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+}
+
+.nav_left .shzr {
+    margin-left: -5px;
+    background-color: #fff;
+    color: #777777;
+    transition: all 0.6s;
+}
+
+.shzr:hover {
+    background-color: #ff5722;
+    color: #fff;
+    transition: all 0.6s ease-in-out;
+}
+
+.nav_left {
+    float: left;
+}
+
+.nav_right {
+    float: right;
+    background: url('/img/hezuoshouye.png') 0px no-repeat;
+    width: 160px;
+    height: 60px;
+    font-size: 12px;
+    z-index: 88;
+    padding-left: 24px;
+}
+
+.nav_right a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav_left div {
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+}
+
+.nav_right a:hover {
+    color: #ff5722;
+}
+
+.hzyxTbody {
+    padding: 60px 0 60px;
+}
+
+.c_hezuo1 {
+    width: 1200px;
+    height: 550px;
+    background: url('/img/hezuo1.jpg') no-repeat center;
+    background-size: 100%;
+    margin: 40px auto;
+}
+
+.c_hezuo2 {
+    width: 1200px;
+    height: 636px;
+    background: url('/img/hezuo2.jpg') no-repeat center;
+    background-size: 100%;
+    margin: 40px auto;
+}
+
+.c_hezuo3 {
+    width: 1200px;
+    height: 647px;
+    background: url('/img/hezuo3.jpg') no-repeat center;
+    background-size: 100%;
+    margin: 40px auto;
+}
+
+.c_hezuo4 {
+    width: 1200px;
+    height: 241px;
+    background: url('/img/hezuo4.jpg') no-repeat center;
+    background-size: 100%;
+    margin: 40px auto;
+}
+
+.hzxx {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hzxx_left {
+    width: 600px;
+}
+
+.hztitle h3 {
+    margin-bottom: 20px;
+}
+
+.hztitle p {
+    color: #a9a9a9;
+}
+
+.hztitle {
+    margin-bottom: 20px;
+}
+
+.hzName {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.hzName_1 {
+    color: red;
+}
+
+.hzBody .biaodan {
+    outline: none;
+    background: #f6f6f6;
+    border-radius: 0;
+    width: 265px;
+    height: 45px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.xuqiu {
+    width: 580px;
+    height: 118px;
+    outline: none;
+    border: none;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background: #f6f6f6;
+    font-size: 18px;
+    resize: none;
+}
+
+.yzm {
+    width: 560px;
+    margin-top: 10px;
+    background: #f6f6f6;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+
+.verification {
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.chongzhi {
+    width: 249px;
+    padding: 0 18px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    background: #f6f6f6;
+    font-size: 16px;
+    color: #a9a9a9;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.chongzhi:hover {
+    background: rgb(255, 120, 78);
+    color: #ffff;
+}
+.hzxx_right{
+    width: 568px;
+    height: 603px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.hzxx_right img{
+    width: 568px;
+    height: 603px;
+}
+/* 鼠标点击社会责任实现内容切换 */

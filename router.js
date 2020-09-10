@@ -37,6 +37,10 @@ app.get('/jfgz', function (req, res) {
     res.render('jfgz')
 })
 
+app.get('/shzr', function (req, res) {
+    res.render('shzr')
+})
+
 module.exports = {
     app
 }

@@ -1,0 +1,109 @@
+.swhztou img {
+    width: 100%;
+    height: 330px;
+}
+
+.nav_title {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.nav_titleBox {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.nav_left a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav_left div strong {
+    width: 64px;
+    height: 60px;
+    font-size: 16px;
+    padding: 0 38px;
+    display: inline-block;
+    background: #ff5722;
+    color: #fff;
+    height: 60px;
+    position: relative;
+}
+
+.nav_left a strong::before {
+    content: "";
+    width: 10px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+}
+
+.nav_left a strong::after {
+    content: "";
+    width: 10px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+}
+
+.nav_left .hzyx {
+    background-color: #fff;
+    color: #777777;
+    transition: 0.6s;
+    margin-left: 5px;
+}
+
+.hzyx:hover {
+    background-color: #ff5722;
+    color: #fff;
+}
+
+.nav_left {
+    float: left;
+}
+
+.nav_right {
+    float: right;
+    background: url('/img/hezuoshouye.png') 0px no-repeat;
+    width: 160px;
+    height: 60px;
+    font-size: 12px;
+    z-index: 88;
+    padding-left: 24px;
+}
+
+.nav_right a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav_left div {
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+}
+
+.nav_right a:hover {
+    color: #ff5722;
+}
+.c_zeren2{
+    width: 1180px;
+    height: 753px;
+    margin: 80px auto;
+}
+.c_zeren3{
+    width: 1180px;
+    height: 732px;
+    margin: 80px auto;
+}
+.c_zeren4{
+    width: 1180px;
+    height: 575px;
+    margin: 80px auto;
+}

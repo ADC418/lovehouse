@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/swhz.css">
+    <title>商务合作</title>
+</head>
+
+<body>
+    <%- include('header.html')%>
+    <div class="swhztou">
+        <img src="/img/hezuo_banner.jpg" alt="">
+    </div>
+    <div class="nav_title">
+        <div class="nav_titleBox">
+            <div class="nav_left">
+                <div>
+                    <a href="http://localhost:3000/swhz">
+                        <strong>合作意向</strong>
+                    </a>
+                </div>
+                <div>
+                    <a href="http://localhost:3000/shzr">
+                        <strong class="shzr">社会责任</strong>
+                    </a>
+                </div>
+            </div>
+            <div class="nav_right">
+                <a href="http://localhost:3000/">首页</a>
+                <i>-</i>
+                <a href="http://localhost:3000/swhz">商务合作</a>
+                <i>-</i>
+                <span>合作意向</span>
+            </div>
+        </div>
+    </div>
+    <div class="hzyxBody">
+        <div class="hzyxTbody">
+            <div class="c_hezuo1"></div>
+            <div class="c_hezuo2"></div>
+            <div class="c_hezuo3"></div>
+            <div class="c_hezuo4"></div>
+            <div class="hzxx">
+                <div class="hzxx_left">
+                    <div class="hzxx_leftBody">
+                        <div class="hztitle">
+                            <h3><img src="/img/nh.png" alt=""></h3>
+                            <p>若您有合作意向，请您留言联系我们，我们将在24小时内给您回复。</p>
+                            <br>
+                            <p>您给我们多大的信任，我们给您多大的惊喜！</p>
+                        </div>
+                        <div class="hzBody">
+                            <form action="">
+                                <div class="hzName">
+                                    <span class="hzName_1">*</span>
+                                    <span>姓名</span>
+                                    <input type="text" class="biaodan">
+                                </div>
+                                <div class="hzName">
+                                    <span class="hzName_1">*</span>
+                                    <span>邮箱</span>
+                                    <input type="text" class="biaodan">
+                                </div>
+                                <div class="hzName">
+                                    <span class="hzName_1">*</span>
+                                    <span>电话</span>
+                                    <input type="text" class="biaodan">
+                                </div>
+                                <div class="hzName">
+                                    <span class="hzName_1">*</span>
+                                    <span>地址</span>
+                                    <input type="text" class="biaodan">
+                                </div>
+                                <div class="hzName" style="width: 100%;">
+                                    <span class="hzName_1">*</span>
+                                    <span>需求</span>
+                                    <textarea class="xuqiu" cols="5" rows="10"></textarea>
+                                </div>
+                                <div class="hzName" style="width: 100%;">
+                                    <span class="hzName_1">*</span>
+                                    <span>验证码</span>
+                                    <input type="text" class="yzm">
+                                    <div class="verification">
+                                        <img src="/img/swyzm1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="hzName">
+                                    <button type="reset" class="chongzhi">重置</button>
+                                </div>
+                                <div class="hzName">
+                                    <button type="reset" class="chongzhi">提交</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="hzxx_right">
+                    <img src="/img/swhzdt.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include('footer.html')%>
+</body>
+
+</html>
