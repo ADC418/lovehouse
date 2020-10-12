@@ -9,7 +9,7 @@ function show() {
             var num = $(".xukx_avtive").attr("id")
             var start = (num - 1) * 6
             var end = (num * 6) - 1
-            var str='';
+            var str = '';
             for (var i = start; i < end; i++) {
 
                 str += `
@@ -28,9 +28,9 @@ function show() {
                       </div>
                    </li>  
                     `
-              
+
             }
-           
+
             $('.xwkx_main > ul').empty().append(str)
         }
     })
@@ -40,6 +40,9 @@ show();
 
 $('.xwkx_left li').on("click", function () {
     $('.xwkx_left li').eq($(this).index()).addClass("xukx_avtive").siblings(".xukx_avtive").removeClass("xukx_avtive")
-   
+    $('.xwkx_right li').eq($(this).index())
+    console.log($(this).index())
     show();
 })
+
+// console.log($('.xwkx_right li'))
